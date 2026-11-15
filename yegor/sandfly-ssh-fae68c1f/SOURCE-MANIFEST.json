@@ -1,0 +1,101 @@
+{
+  "repository": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner",
+  "pinned_commit": "fae68c1f180d966ef2ceedc036c15600ecc86f7d",
+  "tree_sha1": "a52c25c454fc6ea7450ab66f7519ff29b90b90a2",
+  "collected_at_utc": "2026-11-14T23:03:45.816346+00:00",
+  "source_bytes_changed": false,
+  "executed": false,
+  "uploaded": false,
+  "verification": "Downloaded bytes matched each Git blob SHA-1 in the pinned commit tree; on-disk bytes and SHA-256 rechecked.",
+  "license_context": "MIT; retain LICENSE and embedded Sandfly Security notices.",
+  "files": [
+    {
+      "path": "find_ssh_authorized_keys2_search.sh",
+      "bytes": 662,
+      "git_blob_sha1": "46dfccf5d19341fff9fde0543654eab31d6c265d",
+      "sha256": "107241e145273a9c62c6dce014527e0662be12d82e4a43660423f2765d96e0e1",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys2_search.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys2_search.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "find_ssh_authorized_keys_duplicates.sh",
+      "bytes": 911,
+      "git_blob_sha1": "f30d5ece0c9dad6a41060689a94a4a4cb81a5cef",
+      "sha256": "d9af81f45bbbc2db12b68d295dd82da42e57de34eb8590b2ef54fa5f6255d586",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_duplicates.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_duplicates.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "find_ssh_authorized_keys_excessive.sh",
+      "bytes": 939,
+      "git_blob_sha1": "414f80b53006bb4e9a5a9cd5a0c604ecf8975ebd",
+      "sha256": "b3c8e32e3af9c48773e42793065c232b1d8d709a4ced481d29bf6da8fe343eb8",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_excessive.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_excessive.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "find_ssh_authorized_keys_modified_24hr.sh",
+      "bytes": 1137,
+      "git_blob_sha1": "12b9ed67c75b466811e7fabd96010119167f5da8",
+      "sha256": "d61ef1a8bbfee22ca78505fe8f36f0d9a836b50039f596d916aecd15e2f80126",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_modified_24hr.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_modified_24hr.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "find_ssh_authorized_keys_options_search.sh",
+      "bytes": 1142,
+      "git_blob_sha1": "02a51306ba7bfe23463c9a548d6509fe3f671efd",
+      "sha256": "9a41d39a9688d517db09ea81d89faae3433a32c8a213d32f22a93287c6127159",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_options_search.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_authorized_keys_options_search.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "find_ssh_private_keys.sh",
+      "bytes": 938,
+      "git_blob_sha1": "62d76e56369ec85dd87ade27eb6930bc169e4aa9",
+      "sha256": "9e745ce225a77dc0e61af95d99ac0e913d48dafdd78e8b3a95ec7a229f544552",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_private_keys.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/find_ssh_private_keys.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1105,
+      "git_blob_sha1": "c73b5d2fccce48ce4648ffaa406d9253911cfc8e",
+      "sha256": "2716b31c38af194d576b52eb2f4ec67d50b197f3e734cdece79c04810fe9a186",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/LICENSE",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/LICENSE",
+      "kind": "upstream_document"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1121,
+      "git_blob_sha1": "8c3a2d763458d14f7445b7cc3a0f337c6119ffed",
+      "sha256": "7e9b01fd7020950728b6c4e93f813adcc0a912bf6ae866602574e4a61e192811",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-ssh-security-scanner/blob/fae68c1f180d966ef2ceedc036c15600ecc86f7d/README.md",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-ssh-security-scanner/fae68c1f180d966ef2ceedc036c15600ecc86f7d/README.md",
+      "kind": "upstream_document"
+    }
+  ]
+}

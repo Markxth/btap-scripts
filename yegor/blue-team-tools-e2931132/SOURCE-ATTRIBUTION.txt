@@ -1,0 +1,23 @@
+Source and attribution
+
+Repository: https://github.com/simeononsecurity/Blue-Team-Tools
+Pinned commit: e2931132deac60ff2f738cbb7a74bce5a18eebd9
+Commit URL: https://github.com/simeononsecurity/Blue-Team-Tools/commit/e2931132deac60ff2f738cbb7a74bce5a18eebd9
+
+The selected files and the two license documents are unchanged copies.
+Original file paths and all embedded attribution have been retained.
+
+Apache script: its own source points to https://github.com/Natsec/flawless-hedgehog
+SSH script: credits Shane Sexton, May 3, 2016, version 1.1, in its header.
+Windows discovery checklist: copied from Windows/CCDCprep/checklist in the
+Blue-Team-Tools repository; its parent documentation references WGU-CCDC.
+
+Retained license documents, unchanged from the same pinned commit:
+- LICENSE: repository-level CC0 1.0 Universal document.
+- Linux/Harden-SSH/License.md: GNU General Public License version 3.
+
+No additional license file was found in the pinned Apache or CCDCprep subtrees.
+The repository aggregates third-party work. The root license is not a claim
+that all third-party material can be relicensed under CC0. Preserve original
+notices and check applicable terms before redistribution. This folder contains
+only the requested references, relevant supplied licenses and collection notes.

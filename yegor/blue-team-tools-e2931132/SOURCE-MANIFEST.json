@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/simeononsecurity/Blue-Team-Tools",
+  "pinned_commit": "e2931132deac60ff2f738cbb7a74bce5a18eebd9",
+  "tree_sha1": "c8d2843f4b9d15d174c9b531da6b45dbb61caedd",
+  "collected_at_utc": "2026-11-14T22:58:16.489656+00:00",
+  "verification": "Each downloaded file Git blob SHA-1 matches the pinned commit tree; bytes re-read after writing and SHA-256 verified.",
+  "executed": false,
+  "uploaded": false,
+  "files": [
+    {
+      "path": "Linux/Harden-Apache/flawless-hedgehog.sh",
+      "bytes": 6029,
+      "git_blob_sha1": "fbb2c1a20e7f3649106648fa02b46434bdbc06e3",
+      "sha256": "006b52928ffc0dbd0acfb15502b078f5549fc1616e630184ce6da26814acd972",
+      "source_url": "https://github.com/simeononsecurity/Blue-Team-Tools/blob/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-Apache/flawless-hedgehog.sh",
+      "download_url": "https://raw.githubusercontent.com/simeononsecurity/Blue-Team-Tools/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-Apache/flawless-hedgehog.sh",
+      "git_mode": "100644"
+    },
+    {
+      "path": "Linux/Harden-SSH/ssh_harden.sh",
+      "bytes": 10293,
+      "git_blob_sha1": "1ffd7a4397daff3b7b2a0576702167f28a59c2b7",
+      "sha256": "2e67082d241b1f13e70c3f025858991054887fe1dc47b417a939e3c72d0e5e98",
+      "source_url": "https://github.com/simeononsecurity/Blue-Team-Tools/blob/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-SSH/ssh_harden.sh",
+      "download_url": "https://raw.githubusercontent.com/simeononsecurity/Blue-Team-Tools/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-SSH/ssh_harden.sh",
+      "git_mode": "100644"
+    },
+    {
+      "path": "Windows/CCDCprep/checklist/DiscoverySteps.md",
+      "bytes": 5535,
+      "git_blob_sha1": "94426e2b2063a4a060bbf47887f2b43e62684451",
+      "sha256": "352bf6ee07986cbf72889690c261ea00400ce857e25910a67253443ec2292fd3",
+      "source_url": "https://github.com/simeononsecurity/Blue-Team-Tools/blob/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Windows/CCDCprep/checklist/DiscoverySteps.md",
+      "download_url": "https://raw.githubusercontent.com/simeononsecurity/Blue-Team-Tools/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Windows/CCDCprep/checklist/DiscoverySteps.md",
+      "git_mode": "100644"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 7048,
+      "git_blob_sha1": "0e259d42c996742e9e3cba14c677129b2c1b6311",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "source_url": "https://github.com/simeononsecurity/Blue-Team-Tools/blob/e2931132deac60ff2f738cbb7a74bce5a18eebd9/LICENSE",
+      "download_url": "https://raw.githubusercontent.com/simeononsecurity/Blue-Team-Tools/e2931132deac60ff2f738cbb7a74bce5a18eebd9/LICENSE",
+      "git_mode": "100644"
+    },
+    {
+      "path": "Linux/Harden-SSH/License.md",
+      "bytes": 35141,
+      "git_blob_sha1": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+      "source_url": "https://github.com/simeononsecurity/Blue-Team-Tools/blob/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-SSH/License.md",
+      "download_url": "https://raw.githubusercontent.com/simeononsecurity/Blue-Team-Tools/e2931132deac60ff2f738cbb7a74bce5a18eebd9/Linux/Harden-SSH/License.md",
+      "git_mode": "100644"
+    }
+  ]
+}

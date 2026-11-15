@@ -1,0 +1,18 @@
+Unchanged open-source reference subset
+
+Source: https://github.com/sandflysecurity/sandfly-forensic-scripts
+Pinned commit: ee98007fa5c11abeba397fc1bee2145bf3fb7c65
+
+Only the selected upstream scripts, upstream documentation/licenses and collection metadata are included. No script was generated, rewritten, executed, installed, tested against a target or uploaded. Original line endings, byte-order marks, comments and source bytes were retained. Local copies are non-executable (0644), including any upstream file with an executable bit. The folder does not confer competition approval; confirm the event rules and scope before use.
+
+License and attribution: MIT; retain LICENSE and embedded Sandfly Security notices. Upstream author notices remain in the unchanged source and README.
+
+Compatibility and limitations:
+Linux/Bash only; needs Linux /proc and requests root. Enumerating process file descriptors can be slow on busy hosts. This helper does not itself capture traffic, stop processes or remove anything. Its output needs manual interpretation.
+
+Per-file review notes:
+- list-packet-sniffers/list_packet_sniffers.sh: Correlates packet-socket inodes with process file descriptors. Legitimate network tools also use packet sockets. Process exits, permissions and network namespaces can cause unmatched or missing results; an unmatched inode is not proof of a hidden process.
+
+Integrity verification is not a security or malware-free guarantee. Review each script before use on an authorized competition host. Inspection still consumes resources and may be logged by the operating system. No system settings were changed by collecting these files.
+
+SOURCE-MANIFEST.json provides source links and Git blob/SHA-256 hashes. SHA256SUMS.txt covers all other files in this folder. The upstream README may describe additional files or workflows that are not included.

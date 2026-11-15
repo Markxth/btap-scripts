@@ -1,0 +1,26 @@
+Unchanged open-source reference subset
+
+Source: https://github.com/davehull/Kansa
+Pinned commit: 64b6280caaf34b34782f81c40afde9ddd2e5fce1
+
+Only the selected upstream scripts, upstream documentation/licenses and collection metadata are included. No script was generated, rewritten, executed, installed, tested against a target or uploaded. Original line endings, byte-order marks, comments and source bytes were retained. Local copies are non-executable (0644), including any upstream file with an executable bit. The folder does not confer competition approval; confirm the event rules and scope before use.
+
+License and attribution: Apache License 2.0 for this selected subset; retain LICENSE and embedded attribution. The full upstream repository includes other licensed components that are not part of this subset. Upstream author notices remain in the unchanged source and README.
+
+Compatibility and limitations:
+Windows PowerShell collection snippets, not a complete Kansa installation. The Kansa orchestrator, deployment scripts, binaries and remediation modules are intentionally not included. The three WMI modules use Get-WmiObject, so they require Windows PowerShell (for example 5.1), not PowerShell 7. NetTCPIP/SMB cmdlets vary by Windows version, installed components and elevation. Some queries need administrator access for complete results. Results may contain usernames, network details or command lines and should be handled privately. Included upstream README describes the full project, not only this selected subset.
+
+Per-file review notes:
+- Modules/ASEP/Get-SchedTasks.ps1: Queries scheduled tasks through schtasks CSV output; localized or version-specific output can affect parsing. Legitimate tasks need context.
+- Modules/ASEP/Get-ImagePathExecutionOptions.ps1: Reads IFEO Debugger registry entries in two locations; debugging settings may be legitimate and this is not exhaustive persistence detection.
+- Modules/ASEP/Get-WMIEvtConsumer.ps1: Enumerates WMI event consumers in root/subscription and root/default; correlate with filters and bindings and distinguish legitimate automation.
+- Modules/ASEP/Get-WMIEvtFilter.ps1: Enumerates WMI event filters; correlate with consumers and bindings rather than treating every result as persistence.
+- Modules/ASEP/Get-WMIFltConBind.ps1: Enumerates filter-to-consumer bindings; interpret alongside both other WMI modules.
+- Modules/Net/Get-NetIPInterfaces.ps1: Reads IP interface state; requires the Windows NetTCPIP cmdlets.
+- Modules/Net/Get-NetRoutes.ps1: Reads routing state; requires Windows NetTCPIP cmdlets and does not modify routes.
+- Modules/Net/Get-SmbSession.ps1: Reads SMB sessions when Get-SmbSession exists; silently producing no output can mean the cmdlet is unavailable, not that no sessions exist.
+- Modules/Config/Get-SmbShare.ps1: Reads SMB shares when Get-SmbShare exists; silently producing no output can mean the cmdlet is unavailable, not that no shares exist.
+
+Integrity verification is not a security or malware-free guarantee. Review each script before use on an authorized competition host. Inspection still consumes resources and may be logged by the operating system. No system settings were changed by collecting these files.
+
+SOURCE-MANIFEST.json provides source links and Git blob/SHA-256 hashes. SHA256SUMS.txt covers all other files in this folder. The upstream README may describe additional files or workflows that are not included.

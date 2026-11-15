@@ -1,0 +1,134 @@
+{
+  "repository": "https://github.com/davehull/Kansa",
+  "pinned_commit": "64b6280caaf34b34782f81c40afde9ddd2e5fce1",
+  "tree_sha1": "dd087c6416be5d530dd6605f9cc07b2b5f36ea0e",
+  "collected_at_utc": "2026-11-14T23:03:45.823429+00:00",
+  "source_bytes_changed": false,
+  "executed": false,
+  "uploaded": false,
+  "verification": "Downloaded bytes matched each Git blob SHA-1 in the pinned commit tree; on-disk bytes and SHA-256 rechecked.",
+  "license_context": "Apache License 2.0 for this selected subset; retain LICENSE and embedded attribution. The full upstream repository includes other licensed components that are not part of this subset.",
+  "files": [
+    {
+      "path": "Modules/ASEP/Get-SchedTasks.ps1",
+      "bytes": 272,
+      "git_blob_sha1": "72a69c87806d39f143df5e27e7583b9246a54426",
+      "sha256": "d614809f7fa38dcb1687672616f206e08ac796c9c42a2c2dd14dca823757ca22",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-SchedTasks.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-SchedTasks.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/ASEP/Get-ImagePathExecutionOptions.ps1",
+      "bytes": 573,
+      "git_blob_sha1": "28a120217af6b80f2d92db5395c4c2f8089ca13a",
+      "sha256": "d83ab185dc811b5a992b1498e9def18270f93af8e344cc10c6841e644564c21b",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-ImagePathExecutionOptions.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-ImagePathExecutionOptions.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/ASEP/Get-WMIEvtConsumer.ps1",
+      "bytes": 552,
+      "git_blob_sha1": "434d1b2c061f61e47719354ec906c31f86eb52d1",
+      "sha256": "8185642436b62b98db962b9a85a633606f365d5dbad0ebbecaaca407d589edc1",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIEvtConsumer.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIEvtConsumer.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/ASEP/Get-WMIEvtFilter.ps1",
+      "bytes": 646,
+      "git_blob_sha1": "4c690f38db62b0bc2270865fa7235348bac487a6",
+      "sha256": "2180b976576dcff2a556ce9ed6ae4331fe8cadba7cbdb875204df6f48be27680",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIEvtFilter.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIEvtFilter.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/ASEP/Get-WMIFltConBind.ps1",
+      "bytes": 375,
+      "git_blob_sha1": "6eb63640d54b3fd95cb176e88da3c2a49bb31e02",
+      "sha256": "cb17eca963e0e8b192772424fe604ea833bd66bc97353e2810cd6bd85cd60bdb",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIFltConBind.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/ASEP/Get-WMIFltConBind.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/Net/Get-NetIPInterfaces.ps1",
+      "bytes": 177,
+      "git_blob_sha1": "279176921c93ef78fb98f2cd2a00472a3b897304",
+      "sha256": "e9164028d24740245afe60f99f4128ed10cbfb4cb19f99c797e6007360b82a67",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-NetIPInterfaces.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-NetIPInterfaces.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/Net/Get-NetRoutes.ps1",
+      "bytes": 154,
+      "git_blob_sha1": "3cde4689faefe66a7ab2bc444804c8f7b9813447",
+      "sha256": "5348de5eee8b69431a89de8beeed069669599ec5c07fc4fb874a22178946654d",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-NetRoutes.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-NetRoutes.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/Net/Get-SmbSession.ps1",
+      "bytes": 251,
+      "git_blob_sha1": "12d07bd7cfdb345741a28604487e8cd1c9919933",
+      "sha256": "33f8b6bc01690980eb1331fdf34c6dde7bdb7916a9c96477634c3c85e1464938",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-SmbSession.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Net/Get-SmbSession.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "Modules/Config/Get-SmbShare.ps1",
+      "bytes": 330,
+      "git_blob_sha1": "f9d2c71b763bf320460095ced2b9eb12669fe832",
+      "sha256": "8af8b01caa05d87b7c13d878c56eec9f6fdf63434271abd5a064ac40659dc6b3",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Config/Get-SmbShare.ps1",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/Modules/Config/Get-SmbShare.ps1",
+      "kind": "selected_script"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11323,
+      "git_blob_sha1": "ad410e11302107da9aa47ce3d46bd5ad011c4c43",
+      "sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/LICENSE",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/LICENSE",
+      "kind": "upstream_document"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3770,
+      "git_blob_sha1": "06e93ee21e03101860ec287481afa6f796b09c91",
+      "sha256": "64a73818d7cd074c1c2d7eda04ae0b5b1f44b156fc18254cf0409da50d26c9b0",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/davehull/Kansa/blob/64b6280caaf34b34782f81c40afde9ddd2e5fce1/README.md",
+      "download_url": "https://raw.githubusercontent.com/davehull/Kansa/64b6280caaf34b34782f81c40afde9ddd2e5fce1/README.md",
+      "kind": "upstream_document"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Unchanged open-source reference subset
+
+Source: https://github.com/sandflysecurity/sandfly-ssh-security-scanner
+Pinned commit: fae68c1f180d966ef2ceedc036c15600ecc86f7d
+
+Only the selected upstream scripts, upstream documentation/licenses and collection metadata are included. No script was generated, rewritten, executed, installed, tested against a target or uploaded. Original line endings, byte-order marks, comments and source bytes were retained. Local copies are non-executable (0644), including any upstream file with an executable bit. The folder does not confer competition approval; confirm the event rules and scope before use.
+
+License and attribution: MIT; retain LICENSE and embedded Sandfly Security notices. Upstream author notices remain in the unchanged source and README.
+
+Compatibility and limitations:
+Linux/Bash inspection helpers. They request root to read other users SSH directories. Coverage follows local account home directories and script heuristics, not every possible SSH configuration. Review output manually; no finding proves compromise and empty output does not prove a host is clean. File and account paths may be sensitive.
+
+Per-file review notes:
+- find_ssh_authorized_keys2_search.sh: Finds legacy authorized_keys2 files; presence alone does not mean they are active or malicious.
+- find_ssh_authorized_keys_duplicates.sh: Flags duplicate authorized-key entries; legitimate reuse and formatting differences require manual review.
+- find_ssh_authorized_keys_excessive.sh: Flags key-count heuristics; its threshold is not proof of compromise.
+- find_ssh_authorized_keys_modified_24hr.sh: Recent modification times may be legitimate; the time window and host clock limit coverage.
+- find_ssh_authorized_keys_options_search.sh: Key options can be legitimate restrictions or automation; inspect context before changing anything.
+- find_ssh_private_keys.sh: Reports likely private-key filenames using a PRIVATE text heuristic, not key contents; presence alone is not compromise. Protect findings and do not upload key material.
+
+Integrity verification is not a security or malware-free guarantee. Review each script before use on an authorized competition host. Inspection still consumes resources and may be logged by the operating system. No system settings were changed by collecting these files.
+
+SOURCE-MANIFEST.json provides source links and Git blob/SHA-256 hashes. SHA256SUMS.txt covers all other files in this folder. The upstream README may describe additional files or workflows that are not included.

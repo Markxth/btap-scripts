@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/sandflysecurity/sandfly-forensic-scripts",
+  "pinned_commit": "ee98007fa5c11abeba397fc1bee2145bf3fb7c65",
+  "tree_sha1": "8fa332f6b0cf80a52167127c3e1e12a8023733d6",
+  "collected_at_utc": "2026-11-14T23:03:45.819387+00:00",
+  "source_bytes_changed": false,
+  "executed": false,
+  "uploaded": false,
+  "verification": "Downloaded bytes matched each Git blob SHA-1 in the pinned commit tree; on-disk bytes and SHA-256 rechecked.",
+  "license_context": "MIT; retain LICENSE and embedded Sandfly Security notices.",
+  "files": [
+    {
+      "path": "list-packet-sniffers/list_packet_sniffers.sh",
+      "bytes": 3421,
+      "git_blob_sha1": "39ffcf422943aa95796dc091457d867d775ecf65",
+      "sha256": "b7bb2fe31c1c2fc9be00592dc8a2c492e9b4b070f3add2cb60949272e2279435",
+      "git_mode": "100755",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-forensic-scripts/blob/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/list-packet-sniffers/list_packet_sniffers.sh",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-forensic-scripts/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/list-packet-sniffers/list_packet_sniffers.sh",
+      "kind": "selected_script"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "git_blob_sha1": "d8dcead15a73e693afbfa5e8ab63e61fd52c3b65",
+      "sha256": "09507b3f8b397e560366962ebd3d8b07eb449746f9527f4a9ea8891c40c087f6",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-forensic-scripts/blob/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/LICENSE",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-forensic-scripts/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/LICENSE",
+      "kind": "upstream_document"
+    },
+    {
+      "path": "README.md",
+      "bytes": 202,
+      "git_blob_sha1": "ab555b67967caa55ab4250c9103ff8bb480b93d8",
+      "sha256": "90722180c6e1f9f132b429af61da808c670fdf0a0a4d33df017bab285b5b28fc",
+      "git_mode": "100644",
+      "local_mode": "0644",
+      "source_url": "https://github.com/sandflysecurity/sandfly-forensic-scripts/blob/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/README.md",
+      "download_url": "https://raw.githubusercontent.com/sandflysecurity/sandfly-forensic-scripts/ee98007fa5c11abeba397fc1bee2145bf3fb7c65/README.md",
+      "kind": "upstream_document"
+    }
+  ]
+}
