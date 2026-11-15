@@ -1,0 +1,63 @@
+Firewall Machine Tasks (very rough)
+1. Change login for root and admin (In Web GUI, System | Access | Users)
+2. Kill any existing connections inside
+
+w # anyone logged in?
+pfctl -ss | grep -v '10.42.0.' | head -50 # current states
+pfctl -k [ips-to-kill] # kill states
+pfctl -F states
+
+3. download confix.xml from system | contiguration | backups
+
+Deploy in order: Suri IDS, Wazuh manager, agents, firewall syslog, FIM tuning, IPS later
+
+4. Deploy suricata
+ - Settings tab | enabled | capture mode on PCAP live
+ - promiscuous mode off
+ - pattern matcher - hyperscan
+ - Interfaces - WAN and LAN
+ - advanced mode
+ - networks replace with 10.42.0.0./24 10.100.1.0/24
+ - enable syslog alerts, enable eve syslog output
+ - dont touch log rotation, click Apply
+
+ Rulsets
+ - type ET open in search box a enable following rulesets
+emerging-scan, emerging-exploit, emerging-exploit_kit, emerging-web_server, emerging-web_specific_apps, emerging-sql, emerging-attack_response, emerging-shellcode, emerging-malware, emerging-trojan, emerging-current_events, emerging-netbios, emerging-rpc, emerging-smtp, emerging-dos, emerging-worm
+
+ - enable abuse.ch SSL blacklist and Feodo tracker
+ - do not enable emerging-info and emerging-policy for now
+ - enable selected and download & update rules
+
+Turn rules on
+ - click + add policy named T1-alert w/ priority 0
+ - Rulsets are everything selected previously
+ - action - disabled and alert
+ - new action - alert
+ - save and apply
+
+WAZUH
+ - sudo apt update && apt install -y curl gnupg apt-transport-https
+ - timedatectl set-ntp true
+ - cd /root
+ - curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh
+ - bash ./wazuh-install.sh -a
+ - tar -O -xvf /root/wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
+ - chmod 600 /root/wazuh-install-files.tar
+ - bash /usr/share/wazuh-indexer/plugins/opensearch-security/tools/wazuh-passwords-tool.sh -u admin -p 'secure-password'
+
+ - sed -i 's/^-Xms.*/-Xms1g/; s/^-Xmx.*/-Xmx1g/' /etc/wazuh-indexer/jvm.options # dont wanna starve database
+ - systemctl restart wazuh-indexer
+ - free -h
+
+ if we enable ufw
+ - ufw allow from 10.42.0.0/24 to any port 1514 proto tcp comment 'wazuh agents'
+ - ufw allow from 10.42.0.0/24 to any port 1515 proto tcp comment 'wazuh enroll'
+ - ufw allow from 10.42.0.0/24 to any port 8443 proto tcp comment 'wazuh dashboard' # or use 443
+ - ufw allow from 10.42.0.1    to any port 514  proto udp comment 'opnsense syslog'
+ - ufw status numbered
+
+ - https://10.42.0.30:8443
+
+Agents
+ - in dashboard, Agents | Deploy new agent | follow procedures
